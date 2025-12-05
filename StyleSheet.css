@@ -1,0 +1,268 @@
+
+body {
+    background-color: #FFD1DC;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Georgia", "Times New Roman", serif;
+    color: #4A2C2A; 
+    text-align: center !important; 
+}
+
+nav {
+  position: absolute;      
+  top: 1rem;
+  left: 1rem;
+}
+
+nav ul {
+  list-style: none;        
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0.5rem 0;       
+}
+
+nav a {
+  text-decoration: none;    
+  color: #333;             
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;      
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background: #f0f0f0;      
+  color: #0066cc;          
+}
+
+nav a:active,
+nav a:focus {
+  background: #0066cc;     
+  color: #fff;              
+}
+
+.homepage-image {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-box {
+    max-width: 600px;     
+    margin: 20px auto;     
+    padding: 15px;        
+    background-color: #fff; 
+    border-radius: 8px;    
+    line-height: 1.6;      
+}
+
+.movie-text-box {
+    max-width: 600px;      
+    margin: 20px auto;  
+    padding: 15px;         
+    background-color: #fff; 
+    border-radius: 8px;   
+    line-height: 1.6;    
+}
+
+.mary-poppins {
+     display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.hobby-intro-text {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+.photography-selfie {
+     display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.group-of-photos-1,
+.group-of-photos-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;        
+}
+
+.group-of-photos-1 img,
+.group-of-photos-2 img {
+    width: 200px;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+.example-hobby-text {
+    flex: 0 0 300px;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    line-height: 1.6;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.pet-text {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    line-height: 1.6;
+}
+
+.ruby-in-grass-image {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.image-row img {
+    flex: 1 1 30%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.family-text {
+     max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    line-height: 1.6;  
+}
+
+.family-photo {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.over-the-years-photos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    justify-items: center;
+}
+
+.over-the-years-photos img {
+    border-radius: 8px;
+    height: auto;
+}
+
+.portrait-photo {
+    width: 85%;
+    max-width: 280px;
+    object-fit: cover;
+}
+
+.landscape-photo {
+    width: 100%;
+    max-width: 420px;
+    object-fit: cover;
+}
+
+.currently-text {
+     max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    line-height: 1.6;  
+}
+
+.family-christmas-photo {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.currently-photos {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.currently-photos img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.mountains-image {
+      display: block;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.vegas-text {
+      max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    line-height: 1.6;  
+}
+
+.vegas-images {
+     display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.vegas-images img {
+     width: 300px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover; 
+}
